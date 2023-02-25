@@ -6335,6 +6335,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"team4_week2@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "team4_week2@workspace:."
+  dependencies:
+    "@ethersproject/abi": ^5.4.7
+    "@ethersproject/providers": ^5.4.7
+    "@nomicfoundation/hardhat-chai-matchers": ^1.0.0
+    "@nomicfoundation/hardhat-network-helpers": ^1.0.0
+    "@nomicfoundation/hardhat-toolbox": ^2.0.0
+    "@nomiclabs/hardhat-ethers": ^2.0.0
+    "@nomiclabs/hardhat-etherscan": ^3.0.0
+    "@typechain/ethers-v5": ^10.1.0
+    "@typechain/hardhat": ^6.1.2
+    "@types/chai": ^4.2.0
+    "@types/mocha": ">=9.1.0"
+    "@types/node": ">=12.0.0"
+    chai: ^4.2.0
+    dotenv: ^16.0.3
+    ethers: ^5.4.7
+    hardhat: ^2.12.7
+    hardhat-gas-reporter: ^1.0.8
+    mocha: ^10.2.0
+    solidity-coverage: ^0.8.0
+    ts-node: ">=8.0.0"
+    typechain: ^8.1.0
+    typescript: ">=4.5.0"
+  languageName: unknown
+  linkType: soft
+
 "then-request@npm:^6.0.0":
   version: 6.0.2
   resolution: "then-request@npm:6.0.2"
@@ -6757,35 +6786,6 @@ __metadata:
   checksum: a6cda086d7bde4939fc55be8f1dc5040b4cacd9205ac2ac07f37d14305214679e030af7814a3e97f6fabf2901e3452cd0dc8ce7c1cdd8bce4d0d4bae72c50ad9
   languageName: node
   linkType: hard
-
-"week2_lesson6@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "week2_lesson6@workspace:."
-  dependencies:
-    "@ethersproject/abi": ^5.4.7
-    "@ethersproject/providers": ^5.4.7
-    "@nomicfoundation/hardhat-chai-matchers": ^1.0.0
-    "@nomicfoundation/hardhat-network-helpers": ^1.0.0
-    "@nomicfoundation/hardhat-toolbox": ^2.0.0
-    "@nomiclabs/hardhat-ethers": ^2.0.0
-    "@nomiclabs/hardhat-etherscan": ^3.0.0
-    "@typechain/ethers-v5": ^10.1.0
-    "@typechain/hardhat": ^6.1.2
-    "@types/chai": ^4.2.0
-    "@types/mocha": ">=9.1.0"
-    "@types/node": ">=12.0.0"
-    chai: ^4.2.0
-    dotenv: ^16.0.3
-    ethers: ^5.4.7
-    hardhat: ^2.12.7
-    hardhat-gas-reporter: ^1.0.8
-    mocha: ^10.2.0
-    solidity-coverage: ^0.8.0
-    ts-node: ">=8.0.0"
-    typechain: ^8.1.0
-    typescript: ">=4.5.0"
-  languageName: unknown
-  linkType: soft
 
 "which-boxed-primitive@npm:^1.0.2":
   version: 1.0.2

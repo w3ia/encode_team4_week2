@@ -1,7 +1,5 @@
 import { ethers } from "hardhat";
 
-const PROPOSALS = ["Proposal 1", "Proposal 2", "Proposal 3"];
-
 // Helper function to convert string to bytes
 function formatBytes32String(arr: string | any[]) {
     let bytesArr = [];
@@ -13,13 +11,12 @@ function formatBytes32String(arr: string | any[]) {
 
 async function main() {
     const args = process.argv;
-    console.log(args);
-    let proposals = args.slice(2);
-    if(proposals.length <= 0) proposals = PROPOSALS;
+    const proposals = args.slice(2);
+    if(proposals.length <= 0) throw new Error("Please enter proposals")
 
     console.log("Proposals: ");
     proposals.forEach((element, index) => {
-        console.log(`Proposal N. ${index + 1}: ${element}`);
+        console.log(`Proposal No.${index + 1}: ${element}`);
     });
 
     // 1: Deploy Contract
