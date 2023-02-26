@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 import { Ballot__factory } from "../typechain-types";
 require('dotenv').config();
 
-const CONTRACT_ADDRESS = "<CONTRACT_ADDRESS_GOES_HERE>"
+const CONTRACT_ADDRESS = "0x352897A49bAeBe92eDB34aF2806DDBA028b5F995"
 
 async function main() {
     const args = process.argv;
@@ -37,7 +37,8 @@ async function main() {
      // 2: Grant voting rights
     voters.forEach(async element => {
         console.log(`Granting voting rights to ${element}`);
-        await ballotC.giveRightToVote(element);
+        let TxReceipt = await ballotC.giveRightToVote(element);
+        console.log({ TxReceipt });
     });
     console.log("Voting rights granted");
 }
